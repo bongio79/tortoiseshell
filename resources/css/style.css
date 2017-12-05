@@ -1,15 +1,15 @@
 html {
   font-size: 18px;
   font-family: Helvetica;
-  line-height: 1.4;
 }
 
 body {
   margin: 0;
+  line-height: 1.4rem;
 }
 
 header {
-  height: 30rem;
+  height: 31rem;
   width: 100%;
   background-image: url("../images/glasses-bg.png");
   background-size: cover;
@@ -48,7 +48,7 @@ nav span {
   margin-left: 2rem;
 }
 
-.titlcontainer {
+.titlecontainer {
   width: 1032px;
   margin: 0 auto;
   display: flex;
@@ -65,4 +65,64 @@ h1 {
   font-size: 2rem;
   font-weight: bold;
   line-height: 1.2;
+}
+
+.icons {
+  height: 8rem;
+  margin: 3rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 8rem;
+}
+
+.box p {
+text-align: center;
+}
+
+#paper img {
+  width: 3.5rem;
+}
+
+#ruler img, #truck img {
+  width: 5rem;
+}
+
+#ruler {
+  margin-left: 6em;
+  margin-right: 6em;
+}
+
+.info {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+.textbox {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+#philosophy {
+  margin-right: 5%;
+}
+
+.title {
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+  max-width: 10rem;
 }
