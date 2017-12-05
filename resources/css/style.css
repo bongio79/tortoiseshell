@@ -39,7 +39,7 @@ header {
   align-items: center;
 }
 
-.logo img {
+.logo img, .footer img {
   height: 1.5rem;
   margin-right: 1rem;
 }
@@ -125,4 +125,11 @@ text-align: center;
   padding: 0.5rem 1.25rem;
   margin-bottom: 1rem;
   max-width: 10rem;
+}
+
+.footer {
+  background-color: azure;
+  display: flex;
+  align-items: center;
+  padding: 4rem;
 }
