@@ -133,3 +133,21 @@ text-align: center;
   align-items: center;
   padding: 4rem;
 }
+
+/* Media queries for responsive design */
+
+@media only screen and (max-width: 1024px) {
+
+  .container {
+    width: 100%;
+  }
+
+  header {
+    height: 22rem;
+  }
+
+  .topbar {
+    position: relative;
+    top: 0;
+  }
+}
